@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/react-spreadsheet-livid.png";
 import projImg3 from "../assets/img/react-personal-portfolio-one.png";
 import projImg4 from "../assets/img/react-trvl-eta.png";
 import projImg5 from "../assets/img/demo-react-counter-fawn.png";
+import projImg6 from "../assets/img/demo-react-github-users.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -21,17 +22,17 @@ export const Projects = () => {
       title: "Spreadsheet",
       description: "Basic Speadsheet Layout",
       imgUrl: projImg2,
-      url: "https://demo-react-counter-fawn.vercel.app/",
+      url: "https://react-spreadsheet-livid.vercel.app/",
     },
     {
       title: "Practice Personal Portfolio",
       description: "First Responsive Portfolio",
       imgUrl: projImg3,
-      url: "https://react-spreadsheet-livid.vercel.app/",
+      url: "https://react-personal-portfolio-one.vercel.app/",
     },
     {
       title: "TRVL Site",
-      description: "Resoonsive Sample Travel Site",
+      description: "Responsive Sample Travel Site",
       imgUrl: projImg4,
       url: "https://react-trvl-eta.vercel.app/",
     },
@@ -39,18 +40,52 @@ export const Projects = () => {
       title: "Counter",
       description: "Basic Counter App",
       imgUrl: projImg5,
-      url: "https://react-personal-portfolio-one.vercel.app/",
+      url: "https://demo-react-counter-fawn.vercel.app/",
     },
+    {
+    title: "GitHub User Finder",
+    description: "Find Any GitHub User By Their Name and/or Username",
+    imgUrl: projImg6,
+    url: "https://demo-react-github-users-eight.vercel.app/",
+  },
   ];
 
   const smallProjects = [
     {
-      title: "Google Inc.",
-      url: "https://www.google.com",
+      title: "Basic Background Video",
+      url: "https://imaginative-druid-a7e3c3.netlify.app/",
     },
     {
-      title: "Instagra",
-      url: "https://www.instagram.com",
+      title: "Creative Loading Animation",
+      url: "https://tubular-otter-288a18.netlify.app/",
+    },
+    {
+      title: "Custom Scrollbar",
+      url: "https://poetic-entremet-0161da.netlify.app/",
+    },
+    {
+      title: "Creative Skateboarder Image Hover Effect",
+      url: "https://ornate-crostata-71b952.netlify.app/",
+    },
+    {
+      title: "Creative Buttons",
+      url: "https://fanciful-trifle-21c4f4.netlify.app/",
+    },
+    {
+      title: "Creative Menus",
+      url: "https://superlative-cactus-9386a4.netlify.app/",
+    },
+    {
+      title: "Creative Image Effect",
+      url: "https://subtle-heliotrope-2cc2c9.netlify.app/",
+    },
+    {
+      title: "Tooltip",
+      url: "https://famous-bavarois-c2b592.netlify.app/",
+    },
+    {
+      title: "",
+      url: "",
     },
   ];
 

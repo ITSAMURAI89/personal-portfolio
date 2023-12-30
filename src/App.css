@@ -311,9 +311,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  margin-bottom: 10px;
+}
+.skill-bx h2 {
+  margin-bottom: 30px;
 }
 .skill h2 {
-	font-size: 45px;
+	font-size: 55px;
 	font-weight: 700;
 }
 .skill p {
@@ -546,7 +550,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:900|Raleway:400,400i,700,700i);
 ol.gradient-list > li::before, ol.gradient-list > li {
-  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 91, 244 0.05), 0 0.5rem 1.125rem rgba(255, 91, 244, 0.05);
 }
 
 .small-projects {
@@ -554,6 +558,8 @@ ol.gradient-list > li::before, ol.gradient-list > li {
   margin: 0 auto;
   max-width: 40rem;
   padding: 1rem;
+  cursor: pointer;
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 91, 244 0.05), 0 0.5rem 1.125rem rgba(255, 91, 244, 0.05);
 }
 
 ol.gradient-list {
@@ -573,7 +579,7 @@ ol.gradient-list > li {
   border: 1px solid white;
 }
 ol.gradient-list > li::before, ol.gradient-list > li::after {
-  background: linear-gradient(135deg, #83e4e2 0%, #a2ed56 100%);
+  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
   border-radius: 1rem 1rem 0 1rem;
   content: "";
   height: 3rem;
@@ -594,7 +600,7 @@ ol.gradient-list > li::before {
   z-index: 1;
 }
 ol.gradient-list > li:nth-child(10n+1):before {
-  background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
 }
 ol.gradient-list > li:nth-child(10n+2):before {
   background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);

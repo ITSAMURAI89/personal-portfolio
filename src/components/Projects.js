@@ -48,10 +48,6 @@ export const Projects = () => {
       title: "Google Inc.",
       url: "https://www.google.com",
     },
-    {
-      title: "Facebook",
-      url: "https://www.facebook.com",
-    },
   ];
 
   return (

@@ -384,7 +384,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
   text-align: center;
   z-index: 0;
 }
@@ -394,6 +394,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0;
     height: 100%;
     background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    /* box-shadow: 0.1rem 0.1rem 1rem #dc3eff, 0.1rem 0.1rem 1rem #dc3eff; */
     top: 0;
     left: 0;
     z-index: -1;
@@ -403,19 +404,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 100% !important;
 }
 .project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: 1px solid #AA367C;
 }
 .nav-link#projects-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+  border: 1px solid #AA367C;
+  border-radius: 50px 0px 0px 50px;
 }
 .nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid #AA367C;
+  border-bottom: 1px solid #AA367C;
 }
 .nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
+  border: 1px solid #AA367C;
+  border-radius: 0 50px 50px 0;
 }
 .proj-imgbx {
   position: relative;
@@ -430,7 +431,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 100%;
   height: 0;
-  transition: 0.4s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .proj-imgbx:hover::before {
   height: 100%;
@@ -442,7 +443,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
   opacity: 0;
   width: 100%;
 }
@@ -550,7 +551,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:900|Raleway:400,400i,700,700i);
 ol.gradient-list > li::before, ol.gradient-list > li {
-  box-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 91, 244 0.05), 0 0.5rem 1.125rem rgba(255, 91, 244, 0.05);
+  box-shadow: 0.1rem 0.1rem 0.1rem #dc3eff, 0 0.1rem 1.1rem #dc3eff;
 }
 
 .small-projects {
@@ -559,7 +560,7 @@ ol.gradient-list > li::before, ol.gradient-list > li {
   max-width: 40rem;
   padding: 1rem;
   cursor: pointer;
-  box-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 91, 244 0.05), 0 0.5rem 1.125rem rgba(255, 91, 244, 0.05);
+  box-shadow: 0.20rem 0.20rem 0.5rem #551db6, 0 0.5rem 1.125rem #551db6;
 }
 
 ol.gradient-list {
@@ -576,7 +577,7 @@ ol.gradient-list > li {
   min-height: 3rem;
   padding: 1rem 1rem 1rem 3rem;
   position: relative;
-  border: 1px solid white;
+  border: 1px solid #dc3eff;
 }
 ol.gradient-list > li::before, ol.gradient-list > li::after {
   background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
@@ -603,31 +604,31 @@ ol.gradient-list > li:nth-child(10n+1):before {
   background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
 }
 ol.gradient-list > li:nth-child(10n+2):before {
-  background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
 }
 ol.gradient-list > li:nth-child(10n+3):before {
-  background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
 }
 ol.gradient-list > li:nth-child(10n+4):before {
-  background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
 }
 ol.gradient-list > li:nth-child(10n+5):before {
-  background: linear-gradient(135deg, #a2ed56 0%, #fddc32 100%);
+  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
 }
 ol.gradient-list > li:nth-child(10n+6):before {
-  background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
 }
 ol.gradient-list > li:nth-child(10n+7):before {
-  background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
 }
 ol.gradient-list > li:nth-child(10n+8):before {
-  background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
 }
 ol.gradient-list > li:nth-child(10n+9):before {
-  background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
 }
 ol.gradient-list > li:nth-child(10n+10):before {
-  background: linear-gradient(135deg, rgba(162, 237, 86, 0) 0%, rgba(253, 220, 50, 0) 100%);
+  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
 }
 ol.gradient-list > li + li {
   margin-top: 2rem;
@@ -703,6 +704,14 @@ ol.gradient-list > li + li {
 }
 .footer img {
   width: 26%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .align-items-center img {
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .footer p {
   font-weight: 400;

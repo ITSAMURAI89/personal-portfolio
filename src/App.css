@@ -411,13 +411,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 50px 0px 0px 50px;
 }
 .nav-link#projects-tabs-tab-second {
-  border-top: 1px solid #AA367C;
-  border-bottom: 1px solid #AA367C;
-}
-.nav-link#projects-tabs-tab-third {
   border: 1px solid #AA367C;
   border-radius: 0 50px 50px 0;
 }
+/* .nav-link#projects-tabs-tab-third {
+  border: 1px solid #AA367C;
+  border-radius: 0 50px 50px 0;
+} */
 .proj-imgbx {
   position: relative;
   border-radius: 30px;

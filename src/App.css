@@ -31,7 +31,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #0c1209 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -92,8 +92,12 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #b56400b7;
+  position: sticky;
 }
+/* nav.navbar.scrolled {
+  position: fixed;
+} */
 nav.navbar a.navbar-brand {
     width: 9%;
 }
@@ -127,7 +131,7 @@ span.navbar-text {
     align-items: center;
     justify-content: center;
     line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.674);
 }
 .social-icon a::before {
     content: "";
@@ -176,7 +180,7 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #121212;
+  color: #000000b7;
 }
 .navbar-text button:hover::before {
 	content: "";
@@ -234,8 +238,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
-  background-position: top center;
+  background-image: url('./assets/img/nature-bg.jpg');
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -243,9 +247,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 20px;
+  background: linear-gradient(90.21deg, #1d2400 -5.91%, #b56300 111.58%);
+  border: 1px solid #ffffff;
+  font-size: 24px;
   margin-bottom: 16px;
   display: inline-block;
 }
@@ -258,8 +262,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
-  font-size: 18px;
+  background: #b56400c2;
+  color: #ffffff;
+  font-size: 20px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -283,7 +288,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 3s linear infinite;
+  margin-left: -10%;
+  margin-top: 25%;
+  /* animation: updown 3s linear infinite; */
 }
 @keyframes updown {
     0% {
@@ -301,15 +308,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Skills CSS ************/
+
 .skill {
+  background: #0c1209;
   padding: 0 0 50px 0;
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #151f15d5;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 30px 20px;
   margin-top: -60px;
   margin-bottom: 10px;
 }
@@ -321,7 +330,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
+    color: #ffffff;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -332,23 +341,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto;
   position: relative;
 }
-.skill-slider .item img {
-  width: 50%;
-  margin: 0 auto 15px auto;
-}
-.background-image-left {
-  top: 28%;
+.background-image-center {
   position: absolute;
-  bottom: 0;
-  width: 40%;
-  z-index: -4;
+  bottom: 0; /* Set the bottom to 0 to ensure it is at the bottom of the container */
+  left: 0;   /* Set left to 0 to cover the entire width of the container */
+  width: 100%;
+  height: 28%; /* Set the height to 28% of the container */
+  background-position: center bottom;
+  background-size: cover;
+  z-index: -1;
 }
 
 /************ Projects CSS ************/
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #0c1209;
 }
 .project h2 {
 	font-size: 45px;
@@ -368,7 +376,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  background-color: #273122bd;
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
@@ -393,7 +401,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #1d2400 -5.91%, #b56300 111.58%);
     /* box-shadow: 0.1rem 0.1rem 1rem #dc3eff, 0.1rem 0.1rem 1rem #dc3eff; */
     top: 0;
     left: 0;
@@ -404,14 +412,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 100% !important;
 }
 .project .nav.nav-pills .nav-link.active {
-    border: 1px solid #AA367C;
+    border: 1px solid #e47f02;
 }
 .nav-link#projects-tabs-tab-first {
-  border: 1px solid #AA367C;
+  border: 1px solid #e47f02;
   border-radius: 50px 0px 0px 50px;
 }
 .nav-link#projects-tabs-tab-second {
-  border: 1px solid #AA367C;
+  border: 1px solid #e47f02;
   border-radius: 0 50px 50px 0;
 }
 /* .nav-link#projects-tabs-tab-third {
@@ -426,7 +434,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #002702 -5.91%, #e47f02 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -477,7 +485,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects CSS ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #002702 -5.91%, #e47f02 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -551,7 +559,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:900|Raleway:400,400i,700,700i);
 ol.gradient-list > li::before, ol.gradient-list > li {
-  box-shadow: 0.1rem 0.1rem 0.1rem #dc3eff, 0 0.1rem 1.1rem #dc3eff;
+  box-shadow: 0.1rem 0.1rem 0.1rem #f0ea71, 0 0.1rem 1.1rem #e47f02;
 }
 
 .small-projects {
@@ -560,7 +568,7 @@ ol.gradient-list > li::before, ol.gradient-list > li {
   max-width: 40rem;
   padding: 1rem;
   cursor: pointer;
-  box-shadow: 0.20rem 0.20rem 0.5rem #551db6, 0 0.5rem 1.125rem #551db6;
+  box-shadow: 0.20rem 0.20rem 0.5rem #e47f02, 0 0.5rem 1.125rem #e47f02;
 }
 
 ol.gradient-list {
@@ -577,10 +585,10 @@ ol.gradient-list > li {
   min-height: 3rem;
   padding: 1rem 1rem 1rem 3rem;
   position: relative;
-  border: 1px solid #dc3eff;
+  border: 1px solid #002702;
 }
 ol.gradient-list > li::before, ol.gradient-list > li::after {
-  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
+  background: linear-gradient(135deg, #f0ea71 0%, #f0ea71 100%);
   border-radius: 1rem 1rem 0 1rem;
   content: "";
   height: 3rem;
@@ -593,7 +601,7 @@ ol.gradient-list > li::before, ol.gradient-list > li::after {
 ol.gradient-list > li::before {
   align-items: flex-end;
   content: counter(gradient-counter);
-  color: #1d1f20;
+  color: #0c2106;
   display: flex;
   font: 900 1.5em/1 "Montserrat";
   justify-content: flex-end;
@@ -601,34 +609,34 @@ ol.gradient-list > li::before {
   z-index: 1;
 }
 ol.gradient-list > li:nth-child(10n+1):before {
-  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
+  background: linear-gradient(135deg, #002702 0%, #f0ea71 100%);
 }
 ol.gradient-list > li:nth-child(10n+2):before {
-  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
+  background: linear-gradient(135deg, #002702 0%, #f0ea71 100%);
 }
 ol.gradient-list > li:nth-child(10n+3):before {
-  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
+  background: linear-gradient(135deg, #002702 0%, #f0ea71 100%);
 }
 ol.gradient-list > li:nth-child(10n+4):before {
-  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
+  background: linear-gradient(135deg, #002702 0%, #f0ea71 100%);
 }
 ol.gradient-list > li:nth-child(10n+5):before {
-  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
+  background: linear-gradient(135deg, #002702 0%, #f0ea71 100%);
 }
 ol.gradient-list > li:nth-child(10n+6):before {
-  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
+  background: linear-gradient(135deg, #002702 0%, #f0ea71 100%);
 }
 ol.gradient-list > li:nth-child(10n+7):before {
-  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
+  background: linear-gradient(135deg, #002702 0%, #f0ea71 100%);
 }
 ol.gradient-list > li:nth-child(10n+8):before {
-  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
+  background: linear-gradient(135deg, #002702 0%, #f0ea71 100%);
 }
 ol.gradient-list > li:nth-child(10n+9):before {
-  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
+  background: linear-gradient(135deg, #002702 0%, #f0ea71 100%);
 }
 ol.gradient-list > li:nth-child(10n+10):before {
-  background: linear-gradient(135deg, #5549c5 0%, #dc3eff 100%);
+  background: linear-gradient(135deg, #002702 0%, #f0ea71 100%);
 }
 ol.gradient-list > li + li {
   margin-top: 2rem;
@@ -637,7 +645,7 @@ ol.gradient-list > li + li {
 /************ Footer CSS ************/
 .footer {
   padding: 20px 0 20px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  /* background-image: url('./assets/img/footer-bg.png'); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -716,7 +724,7 @@ align-items: center;
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #ffffff;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }

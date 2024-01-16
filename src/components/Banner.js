@@ -4,6 +4,7 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
+import samuraiKid from "../assets/img/no-bg1.png"
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -58,7 +59,7 @@ export const Banner = () => {
                         </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                    <img src={headerImg} alt="Header Img" />
+                    <img src={samuraiKid} alt="Header Img" />
                     </Col>
                 </Row>
             </Container>   
